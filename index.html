@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="themeBtn" class="theme-btn">
+                Dark Mode
+            </button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home section">
+        <div class="home-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Reynalyn B. Billones</span></h1>
+            <h3>Student | Aspiring Web Developer</h3>
+
+            <p>
+                Welcome to my personal portfolio! This website showcases
+                my background, skills, projects, and learning journey.
+            </p>
+
+            <button onclick="showWelcome()">Welcome Message</button>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+
+        <div class="profile-container">
+            <img src="images/profile.jpg"
+                 alt="My Profile Picture"
+                 class="profile-img">
+        </div>
+    </section>
